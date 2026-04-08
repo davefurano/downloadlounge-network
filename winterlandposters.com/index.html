@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Winterland Posters — Concert Art That Defined an Era</title>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0505;--text:#f5e8d0;--brand:#d4a020;--accent:#8b1a1a;--muted:#8a7a60;--surface:#120a05}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Lato',sans-serif;min-height:100vh}
+nav{display:flex;align-items:center;justify-content:space-between;padding:1.5rem 3rem;border-bottom:1px solid rgba(212,160,32,.2);position:relative;z-index:10}
+.logo{font-family:'Righteous',cursive;font-size:1.3rem;color:var(--brand);letter-spacing:.04em}
+.nav-cta{background:transparent;color:var(--brand);padding:.5rem 1.5rem;border:1px solid rgba(212,160,32,.4);font-size:.875rem;cursor:pointer;font-family:'Lato',sans-serif;transition:border-color .2s}
+.nav-cta:hover{border-color:var(--brand)}
+.hero{max-width:1100px;margin:0 auto;padding:6rem 3rem 4rem;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;position:relative;z-index:10}
+@media(max-width:768px){.hero{grid-template-columns:1fr;padding:4rem 2rem}}
+.tag{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--brand);margin-bottom:1.5rem;opacity:.8}
+h1{font-family:'Righteous',cursive;font-size:clamp(2.5rem,5.5vw,4.5rem);color:var(--text);line-height:1.1;margin-bottom:1rem;letter-spacing:.02em}
+h1 em{color:var(--brand);font-style:normal}
+.sub{font-size:1rem;color:var(--muted);line-height:1.8;margin-bottom:2.5rem;font-weight:300}
+.btn-p{background:var(--brand);color:var(--bg);padding:.9rem 2.5rem;font-size:.875rem;border:none;cursor:pointer;font-weight:700;letter-spacing:.08em;text-transform:uppercase;transition:opacity .15s}
+.btn-p:hover{opacity:.88}
+.poster-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.poster{padding:2rem 1.5rem;display:flex;flex-direction:column;justify-content:space-between;min-height:160px;border:1px solid rgba(212,160,32,.15);transition:border-color .2s}
+.poster:hover{border-color:rgba(212,160,32,.4)}
+.p1{background:linear-gradient(145deg,#1a0808,#2a0a0a);grid-column:1/3}
+.p2{background:linear-gradient(145deg,#0a0a1a,#0a1a2a)}
+.p3{background:linear-gradient(145deg,#0a1a0a,#1a2a0a)}
+.poster-artist{font-family:'Righteous',cursive;font-size:1.1rem;color:var(--brand)}
+.poster-date{font-size:.75rem;color:var(--muted);margin-top:.35rem;letter-spacing:.05em}
+.poster-price{font-size:.85rem;color:var(--text);margin-top:auto;padding-top:.85rem}
+.poster-badge{font-size:.65rem;background:var(--accent);color:var(--text);padding:.2rem .5rem;letter-spacing:.06em;display:inline-block;margin-top:.35rem}
+.collection{background:var(--surface);padding:5rem 3rem;position:relative;z-index:10}
+.collection-inner{max-width:1000px;margin:0 auto}
+.col-eyebrow{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--brand);margin-bottom:.75rem;opacity:.8}
+.col-h{font-family:'Righteous',cursive;font-size:2.5rem;color:var(--text);margin-bottom:3rem}
+.col-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem}
+.col-item{border:1px solid rgba(212,160,32,.1);padding:1.5rem;transition:border-color .2s}
+.col-item:hover{border-color:rgba(212,160,32,.3)}
+.ci-artist{font-family:'Righteous',cursive;font-size:1rem;color:var(--text);margin-bottom:.35rem}
+.ci-event{font-size:.8rem;color:var(--brand);margin-bottom:.4rem;font-style:italic}
+.ci-desc{font-size:.78rem;color:var(--muted);line-height:1.55}
+.cta{background:var(--accent);padding:5rem 3rem;text-align:center;position:relative;z-index:10}
+.cta h2{font-family:'Righteous',cursive;font-size:3rem;color:var(--text);margin-bottom:.5rem}
+.cta p{color:rgba(245,232,208,.7);margin-bottom:2rem}
+.email-row{display:flex;gap:0;max-width:420px;margin:0 auto}
+.email-row input{flex:1;padding:.85rem 1rem;border:none;font-size:.875rem;background:rgba(0,0,0,.3);color:var(--text);outline:none}
+.email-row input::placeholder{color:rgba(245,232,208,.4)}
+.email-row button{background:var(--brand);color:var(--bg);border:none;padding:.85rem 1.5rem;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+footer{padding:2rem 3rem;display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);border-top:1px solid rgba(212,160,32,.1);position:relative;z-index:10}
+</style></head><body>
+<nav><div class="logo">Winterland Posters</div><button class="nav-cta">Browse Collection</button></nav>
+<div class="hero">
+  <div>
+    <div class="tag">Collectible concert art • San Francisco 1971–1978</div>
+    <h1>Concert art that<br>defined <em>an era.</em></h1>
+    <p class="sub">Original and archival concert posters from Winterland Arena — the legendary San Francisco venue where rock history was made. Rare, beautiful, and irreplaceable.</p>
+    <button class="btn-p">Browse the Collection</button>
+  </div>
+  <div class="poster-grid">
+    <div class="poster p1">
+      <div><div class="poster-artist">Grateful Dead</div><div class="poster-date">New Year's Eve 1978 · Final Show</div></div>
+      <div><div class="poster-price">$450 — $2,400</div><div class="poster-badge">LEGENDARY</div></div>
+    </div>
+    <div class="poster p2">
+      <div><div class="poster-artist">Led Zeppelin</div><div class="poster-date">September 1971</div></div>
+      <div><div class="poster-price">$380 — $1,800</div></div>
+    </div>
+    <div class="poster p3">
+      <div><div class="poster-artist">The Band</div><div class="poster-date">The Last Waltz 1976</div></div>
+      <div><div class="poster-price">$520 — $3,200</div><div class="poster-badge">RARE</div></div>
+    </div>
+  </div>
+</div>
+<div class="collection">
+  <div class="collection-inner">
+    <div class="col-eyebrow">The Archive</div>
+    <div class="col-h">Legends on Paper</div>
+    <div class="col-grid">
+      <div class="col-item"><div class="ci-artist">Grateful Dead</div><div class="ci-event">Multiple runs, 1971–1978</div><div class="ci-desc">The house band of Winterland. Dozens of original poster variants available.</div></div>
+      <div class="col-item"><div class="ci-artist">Jefferson Airplane</div><div class="ci-event">Various dates</div><div class="ci-desc">San Francisco's own. Original psychedelic art prints from peak years.</div></div>
+      <div class="col-item"><div class="ci-artist">Janis Joplin</div><div class="ci-event">1968–1969</div><div class="ci-desc">Rare original posters from Big Brother and solo shows at Winterland.</div></div>
+      <div class="col-item"><div class="ci-artist">Carlos Santana</div><div class="ci-event">Early runs, 1969–1972</div><div class="ci-desc">Before Santana was a legend — original posters from the formative years.</div></div>
+    </div>
+  </div>
+</div>
+<div class="cta">
+  <h2>Own a piece of history.</h2>
+  <p>Get notified when new posters are added to the collection.</p>
+  <div class="email-row"><input type="email" placeholder="your@email.com"><button>Join the List</button></div>
+</div>
+<footer><span>© 2026 winterlandposters.com — Dave Furano</span><span>Part of the Download Lounge network</span></footer>
+</body></html>

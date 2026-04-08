@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rock N Chicken — Rock. Chicken. Repeat.</title>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d0d0d;--text:#f5f0e8;--brand:#ff3c00;--accent:#ffcc00;--muted:#888;--surface:#1a1a1a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Noto Sans',sans-serif;min-height:100vh}
+.lightning{position:fixed;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--brand),var(--accent),var(--brand));animation:lightning 3s linear infinite;pointer-events:none}
+@keyframes lightning{0%{background-position:0%}100%{background-position:200%}}
+nav{display:flex;align-items:center;justify-content:space-between;padding:1.25rem 3rem;border-bottom:1px solid rgba(255,60,0,.2);position:relative;z-index:10}
+.logo{font-family:'Black Han Sans',sans-serif;font-size:1.4rem;color:var(--brand);letter-spacing:.02em}
+.logo span{color:var(--accent)}
+.nav-cta{background:var(--brand);color:var(--text);padding:.5rem 1.5rem;font-family:'Black Han Sans',sans-serif;font-size:.9rem;border:none;cursor:pointer;letter-spacing:.04em}
+.hero{max-width:1000px;margin:0 auto;padding:6rem 3rem 4rem;text-align:center;position:relative;z-index:10}
+.chicken{font-size:6rem;display:block;margin-bottom:1.5rem;animation:bounce 1s ease-in-out infinite alternate}
+@keyframes bounce{from{transform:translateY(0)}to{transform:translateY(-15px)}}
+h1{font-family:'Black Han Sans',sans-serif;font-size:clamp(4rem,10vw,9rem);color:var(--text);line-height:.9;margin-bottom:.25rem}
+h1 span{color:var(--brand)}
+.h1b{font-family:'Black Han Sans',sans-serif;font-size:clamp(2rem,5vw,4rem);color:var(--accent);margin-bottom:.5rem}
+.tagline{font-family:'Black Han Sans',sans-serif;font-size:1.2rem;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;margin-bottom:2rem}
+.sub{font-size:1rem;color:var(--muted);max-width:500px;margin:0 auto 3rem;line-height:1.75;font-weight:300}
+.btn-p{background:var(--brand);color:var(--text);padding:1rem 3rem;font-family:'Black Han Sans',sans-serif;font-size:1.2rem;border:none;cursor:pointer;transition:transform .1s}
+.btn-p:hover{transform:scale(1.03)}
+.menu-section{background:var(--surface);padding:5rem 3rem;position:relative;z-index:10}
+.menu-inner{max-width:900px;margin:0 auto}
+.menu-h{font-family:'Black Han Sans',sans-serif;font-size:3rem;color:var(--brand);text-align:center;margin-bottom:3rem}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem}
+.menu-item{border:2px solid rgba(255,60,0,.2);padding:1.75rem;text-align:center;transition:border-color .15s}
+.menu-item:hover{border-color:var(--brand)}
+.mi-icon{font-size:2.5rem;display:block;margin-bottom:.85rem}
+.mi-name{font-family:'Black Han Sans',sans-serif;font-size:1.1rem;color:var(--text);margin-bottom:.4rem}
+.mi-desc{font-size:.8rem;color:var(--muted);line-height:1.6}
+.mi-heat{color:var(--brand);font-size:.8rem;letter-spacing:.05em;margin-top:.5rem}
+.cta{background:var(--brand);padding:5rem 3rem;text-align:center;position:relative;z-index:10}
+.cta h2{font-family:'Black Han Sans',sans-serif;font-size:4rem;color:var(--text);margin-bottom:.5rem}
+.cta p{color:rgba(245,240,232,.7);margin-bottom:2rem}
+.email-row{display:flex;gap:0;max-width:420px;margin:0 auto}
+.email-row input{flex:1;padding:.85rem 1rem;border:none;font-size:.875rem;background:var(--bg);color:var(--text);outline:none}
+.email-row button{background:var(--accent);color:var(--bg);border:none;padding:.85rem 1.5rem;font-family:'Black Han Sans',sans-serif;cursor:pointer;white-space:nowrap}
+footer{padding:2rem 3rem;display:flex;justify-content:space-between;font-size:.8rem;color:var(--muted);border-top:1px solid rgba(255,60,0,.1);position:relative;z-index:10}
+</style></head><body>
+<div class="lightning"></div>
+<nav><div class="logo">Rock N <span>Chicken</span></div><button class="nav-cta">Find a Location</button></nav>
+<div class="hero">
+  <span class="chicken">🍗</span>
+  <h1>ROCK<br><span>N</span></h1>
+  <div class="h1b">CHICKEN</div>
+  <div class="tagline">Rock. Chicken. Repeat.</div>
+  <p class="sub">A rock-and-roll inspired chicken concept. Bold flavors, heavy beats, and a dining experience that hits hard from the first bite.</p>
+  <button class="btn-p">🎸 Order Now</button>
+</div>
+<div class="menu-section">
+  <div class="menu-inner">
+    <div class="menu-h">THE MENU</div>
+    <div class="menu-grid">
+      <div class="menu-item"><span class="mi-icon">🍗</span><div class="mi-name">The Headbanger</div><div class="mi-desc">Double crispy thighs, ghost pepper honey, pickled jalapeños</div><div class="mi-heat">🔥🔥🔥🔥🔥</div></div>
+      <div class="menu-item"><span class="mi-icon">🍔</span><div class="mi-name">The Roadie</div><div class="mi-desc">Crispy breast sandwich, comeback sauce, slaw, brioche</div><div class="mi-heat">🔥🔥</div></div>
+      <div class="menu-item"><span class="mi-icon">🍟</span><div class="mi-name">The Encore</div><div class="mi-desc">Seasoned tenders, 3 sauce dips, crinkle fries</div><div class="mi-heat">🔥</div></div>
+      <div class="menu-item"><span class="mi-icon">🌶</span><div class="mi-name">The Mosh Pit</div><div class="mi-desc">Nashville hot strips, waffle, maple syrup, revenge</div><div class="mi-heat">🔥🔥🔥🔥</div></div>
+    </div>
+  </div>
+</div>
+<div class="cta">
+  <h2>Coming to your city.</h2>
+  <p>Get notified when Rock N Chicken opens near you.</p>
+  <div class="email-row"><input type="email" placeholder="your@email.com"><button>NOTIFY ME 🤘</button></div>
+</div>
+<footer><span>© 2026 rocknchicken.com</span><span>Part of the Download Lounge network</span></footer>
+</body></html>
