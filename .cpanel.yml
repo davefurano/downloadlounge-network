@@ -1,0 +1,45 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/data0/downloadlounge.com/public_html
+    - /bin/cp -r downloadlounge.com/. $DEPLOYPATH/downloadloungecom/
+    - /bin/cp -r avatarhouseband.com/. $DEPLOYPATH/avatarhousebandcom/
+    - /bin/cp -r avatarhousebands.com/. $DEPLOYPATH/avatarhousebandscom/
+    - /bin/cp -r worldsgreatestavatarhouseband.com/. $DEPLOYPATH/worldsgreatestavatarhousebandcom/
+    - /bin/cp -r worldsgreatestavatarhousebands.com/. $DEPLOYPATH/worldsgreatestavatarhousebandscom/
+    - /bin/cp -r worldsgreatesthouseband.com/. $DEPLOYPATH/worldsgreatesthousebandcom/
+    - /bin/cp -r worldsgreatesthousebands.com/. $DEPLOYPATH/worldsgreatesthousebandscom/
+    - /bin/cp -r proudtoserve.com/. $DEPLOYPATH/proudtoservecom/
+    - /bin/cp -r thedick.show/. $DEPLOYPATH/thedickshow/
+    - /bin/cp -r auctionarium.com/. $DEPLOYPATH/auctionariumcom/
+    - /bin/cp -r wallofbeer.com/. $DEPLOYPATH/wallofbeercom/
+    - /bin/cp -r rocknchicken.com/. $DEPLOYPATH/rocknchickencom/
+    - /bin/cp -r rocksportsplay.com/. $DEPLOYPATH/rocksportsplaycom/
+    - /bin/cp -r scratchchicken.com/. $DEPLOYPATH/scratchchickencom/
+    - /bin/cp -r aidrdan.com/. $DEPLOYPATH/aidrdancom/
+    - /bin/cp -r aidrivo.com/. $DEPLOYPATH/aidrivocom/
+    - /bin/cp -r aidrivo.org/. $DEPLOYPATH/aidrivoorg/
+    - /bin/cp -r doctorivo.com/. $DEPLOYPATH/doctorivocom/
+    - /bin/cp -r doctorivo.org/. $DEPLOYPATH/doctorivoorg/
+    - /bin/cp -r drivoai.com/. $DEPLOYPATH/drivoaicom/
+    - /bin/cp -r musicslots.com/. $DEPLOYPATH/musicslotscom/
+    - /bin/cp -r concertslots.com/. $DEPLOYPATH/concertslotscom/
+    - /bin/cp -r crowdfundedconcerts.com/. $DEPLOYPATH/crowdfundedconcertscom/
+    - /bin/cp -r neworleansculinaryinstitute.com/. $DEPLOYPATH/neworleansculinaryinstitutecom/
+    - /bin/cp -r neworleanshospitalityinstitute.com/. $DEPLOYPATH/neworleanshospitalityinstitutecom/
+    - /bin/cp -r nolablockparty.com/. $DEPLOYPATH/nolablockpartycom/
+    - /bin/cp -r nolaculinaryinstitute.com/. $DEPLOYPATH/nolaculinaryinstitutecom/
+    - /bin/cp -r 22914th.com/. $DEPLOYPATH/22914thcom/
+    - /bin/cp -r 7919willow.com/. $DEPLOYPATH/7919willowcom/
+    - /bin/cp -r aminthenungesser.com/. $DEPLOYPATH/aminthenungessercom/
+    - /bin/cp -r brionwise.com/. $DEPLOYPATH/brionwisecom/
+    - /bin/cp -r bsgroove.com/. $DEPLOYPATH/bsgroovecom/
+    - /bin/cp -r djbobspencer.com/. $DEPLOYPATH/djbobspencercom/
+    - /bin/cp -r fmgsf.com/. $DEPLOYPATH/fmgsfcom/
+    - /bin/cp -r furanos.com/. $DEPLOYPATH/furanoscom/
+    - /bin/cp -r jbbocas.com/. $DEPLOYPATH/jbbocascom/
+    - /bin/cp -r martinerlichman.com/. $DEPLOYPATH/martinerlichmancom/
+    - /bin/cp -r mospencer.com/. $DEPLOYPATH/mospencercom/
+    - /bin/cp -r rondawise.com/. $DEPLOYPATH/rondawisecom/
+    - /bin/cp -r sharkstoothvineyards.com/. $DEPLOYPATH/sharkstoothvineyardscom/
+    - /bin/cp -r winterlandposters.com/. $DEPLOYPATH/winterlandposterscom/
