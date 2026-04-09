@@ -2,44 +2,49 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/data0/downloadlounge.com/public_html
-    - /bin/cp -r downloadlounge.com/. $DEPLOYPATH/downloadloungecom/
-    - /bin/cp -r avatarhouseband.com/. $DEPLOYPATH/avatarhousebandcom/
-    - /bin/cp -r avatarhousebands.com/. $DEPLOYPATH/avatarhousebandscom/
-    - /bin/cp -r worldsgreatestavatarhouseband.com/. $DEPLOYPATH/worldsgreatestavatarhousebandcom/
-    - /bin/cp -r worldsgreatestavatarhousebands.com/. $DEPLOYPATH/worldsgreatestavatarhousebandscom/
-    - /bin/cp -r worldsgreatesthouseband.com/. $DEPLOYPATH/worldsgreatesthousebandcom/
-    - /bin/cp -r worldsgreatesthousebands.com/. $DEPLOYPATH/worldsgreatesthousebandscom/
-    - /bin/cp -r proudtoserve.com/. $DEPLOYPATH/proudtoservecom/
-    - /bin/cp -r thedick.show/. $DEPLOYPATH/thedickshow/
-    - /bin/cp -r auctionarium.com/. $DEPLOYPATH/auctionariumcom/
-    - /bin/cp -r wallofbeer.com/. $DEPLOYPATH/wallofbeercom/
-    - /bin/cp -r rocknchicken.com/. $DEPLOYPATH/rocknchickencom/
-    - /bin/cp -r rocksportsplay.com/. $DEPLOYPATH/rocksportsplaycom/
-    - /bin/cp -r scratchchicken.com/. $DEPLOYPATH/scratchchickencom/
-    - /bin/cp -r aidrdan.com/. $DEPLOYPATH/aidrdancom/
-    - /bin/cp -r aidrivo.com/. $DEPLOYPATH/aidrivocom/
-    - /bin/cp -r aidrivo.org/. $DEPLOYPATH/aidrivoorg/
-    - /bin/cp -r doctorivo.com/. $DEPLOYPATH/doctorivocom/
-    - /bin/cp -r doctorivo.org/. $DEPLOYPATH/doctorivoorg/
-    - /bin/cp -r drivoai.com/. $DEPLOYPATH/drivoaicom/
-    - /bin/cp -r musicslots.com/. $DEPLOYPATH/musicslotscom/
-    - /bin/cp -r concertslots.com/. $DEPLOYPATH/concertslotscom/
-    - /bin/cp -r crowdfundedconcerts.com/. $DEPLOYPATH/crowdfundedconcertscom/
-    - /bin/cp -r neworleansculinaryinstitute.com/. $DEPLOYPATH/neworleansculinaryinstitutecom/
-    - /bin/cp -r neworleanshospitalityinstitute.com/. $DEPLOYPATH/neworleanshospitalityinstitutecom/
-    - /bin/cp -r nolablockparty.com/. $DEPLOYPATH/nolablockpartycom/
-    - /bin/cp -r nolaculinaryinstitute.com/. $DEPLOYPATH/nolaculinaryinstitutecom/
-    - /bin/cp -r 22914th.com/. $DEPLOYPATH/22914thcom/
-    - /bin/cp -r 7919willow.com/. $DEPLOYPATH/7919willowcom/
-    - /bin/cp -r aminthenungesser.com/. $DEPLOYPATH/aminthenungessercom/
-    - /bin/cp -r brionwise.com/. $DEPLOYPATH/brionwisecom/
-    - /bin/cp -r bsgroove.com/. $DEPLOYPATH/bsgroovecom/
-    - /bin/cp -r djbobspencer.com/. $DEPLOYPATH/djbobspencercom/
-    - /bin/cp -r fmgsf.com/. $DEPLOYPATH/fmgsfcom/
-    - /bin/cp -r furanos.com/. $DEPLOYPATH/furanoscom/
-    - /bin/cp -r jbbocas.com/. $DEPLOYPATH/jbbocascom/
-    - /bin/cp -r martinerlichman.com/. $DEPLOYPATH/martinerlichmancom/
-    - /bin/cp -r mospencer.com/. $DEPLOYPATH/mospencercom/
-    - /bin/cp -r rondawise.com/. $DEPLOYPATH/rondawisecom/
-    - /bin/cp -r sharkstoothvineyards.com/. $DEPLOYPATH/sharkstoothvineyardscom/
-    - /bin/cp -r winterlandposters.com/. $DEPLOYPATH/winterlandposterscom/
+    - /bin/mkdir -p $DEPLOYPATH/1401baronnebrewerycom && /bin/cp -r 1401baronnebrewery.com/. $DEPLOYPATH/1401baronnebrewerycom/
+    - /bin/mkdir -p $DEPLOYPATH/22914thcom && /bin/cp -r 22914th.com/. $DEPLOYPATH/22914thcom/
+    - /bin/mkdir -p $DEPLOYPATH/7919willowcom && /bin/cp -r 7919willow.com/. $DEPLOYPATH/7919willowcom/
+    - /bin/mkdir -p $DEPLOYPATH/aminthenungessercom && /bin/cp -r aminthenungesser.com/. $DEPLOYPATH/aminthenungessercom/
+    - /bin/mkdir -p $DEPLOYPATH/artisanfocacciacom && /bin/cp -r artisanfocaccia.com/. $DEPLOYPATH/artisanfocacciacom/
+    - /bin/mkdir -p $DEPLOYPATH/auctionariumcom && /bin/cp -r auctionarium.com/. $DEPLOYPATH/auctionariumcom/
+    - /bin/mkdir -p $DEPLOYPATH/baronnebrewerycom && /bin/cp -r baronnebrewery.com/. $DEPLOYPATH/baronnebrewerycom/
+    - /bin/mkdir -p $DEPLOYPATH/breakfastandbrewscom && /bin/cp -r breakfastandbrews.com/. $DEPLOYPATH/breakfastandbrewscom/
+    - /bin/mkdir -p $DEPLOYPATH/brewsandbagelscom && /bin/cp -r brewsandbagels.com/. $DEPLOYPATH/brewsandbagelscom/
+    - /bin/mkdir -p $DEPLOYPATH/brionwisecom && /bin/cp -r brionwise.com/. $DEPLOYPATH/brionwisecom/
+    - /bin/mkdir -p $DEPLOYPATH/bsgroovecom && /bin/cp -r bsgroove.com/. $DEPLOYPATH/bsgroovecom/
+    - /bin/mkdir -p $DEPLOYPATH/cheerscentralcom && /bin/cp -r cheerscentral.com/. $DEPLOYPATH/cheerscentralcom/
+    - /bin/mkdir -p $DEPLOYPATH/cheerssocialcom && /bin/cp -r cheerssocial.com/. $DEPLOYPATH/cheerssocialcom/
+    - /bin/mkdir -p $DEPLOYPATH/concertslotscom && /bin/cp -r concertslots.com/. $DEPLOYPATH/concertslotscom/
+    - /bin/mkdir -p $DEPLOYPATH/crowdfundedconcertscom && /bin/cp -r crowdfundedconcerts.com/. $DEPLOYPATH/crowdfundedconcertscom/
+    - /bin/mkdir -p $DEPLOYPATH/culinaryinstitutenolacom && /bin/cp -r culinaryinstitutenola.com/. $DEPLOYPATH/culinaryinstitutenolacom/
+    - /bin/mkdir -p $DEPLOYPATH/djbobspencercom && /bin/cp -r djbobspencer.com/. $DEPLOYPATH/djbobspencercom/
+    - /bin/mkdir -p $DEPLOYPATH/downloadloungecom && /bin/cp -r downloadlounge.com/. $DEPLOYPATH/downloadloungecom/
+    - /bin/mkdir -p $DEPLOYPATH/ecologybeerv2com && /bin/cp -r ecologybeerv2.com/. $DEPLOYPATH/ecologybeerv2com/
+    - /bin/mkdir -p $DEPLOYPATH/ecologynolabeer && /bin/cp -r ecologynola.beer/. $DEPLOYPATH/ecologynolabeer/
+    - /bin/mkdir -p $DEPLOYPATH/fmgsfcom && /bin/cp -r fmgsf.com/. $DEPLOYPATH/fmgsfcom/
+    - /bin/mkdir -p $DEPLOYPATH/focacciasancom && /bin/cp -r focacciasan.com/. $DEPLOYPATH/focacciasancom/
+    - /bin/mkdir -p $DEPLOYPATH/furanoscom && /bin/cp -r furanos.com/. $DEPLOYPATH/furanoscom/
+    - /bin/mkdir -p $DEPLOYPATH/happyhoursocialcom && /bin/cp -r happyhoursocial.com/. $DEPLOYPATH/happyhoursocialcom/
+    - /bin/mkdir -p $DEPLOYPATH/jbbocascom && /bin/cp -r jbbocas.com/. $DEPLOYPATH/jbbocascom/
+    - /bin/mkdir -p $DEPLOYPATH/lifeisabeautifulthingcom && /bin/cp -r lifeisabeautifulthing.com/. $DEPLOYPATH/lifeisabeautifulthingcom/
+    - /bin/mkdir -p $DEPLOYPATH/martinerlichmancom && /bin/cp -r martinerlichman.com/. $DEPLOYPATH/martinerlichmancom/
+    - /bin/mkdir -p $DEPLOYPATH/mospencercom && /bin/cp -r mospencer.com/. $DEPLOYPATH/mospencercom/
+    - /bin/mkdir -p $DEPLOYPATH/musicslotscom && /bin/cp -r musicslots.com/. $DEPLOYPATH/musicslotscom/
+    - /bin/mkdir -p $DEPLOYPATH/neworleansculinaryinstitutecom && /bin/cp -r neworleansculinaryinstitute.com/. $DEPLOYPATH/neworleansculinaryinstitutecom/
+    - /bin/mkdir -p $DEPLOYPATH/neworleanshospitalityinstitutecom && /bin/cp -r neworleanshospitalityinstitute.com/. $DEPLOYPATH/neworleanshospitalityinstitutecom/
+    - /bin/mkdir -p $DEPLOYPATH/nolablockpartycom && /bin/cp -r nolablockparty.com/. $DEPLOYPATH/nolablockpartycom/
+    - /bin/mkdir -p $DEPLOYPATH/nolaculinaryinstitutecom && /bin/cp -r nolaculinaryinstitute.com/. $DEPLOYPATH/nolaculinaryinstitutecom/
+    - /bin/mkdir -p $DEPLOYPATH/nolagoatscom && /bin/cp -r nolagoats.com/. $DEPLOYPATH/nolagoatscom/
+    - /bin/mkdir -p $DEPLOYPATH/nolalunchclubcom && /bin/cp -r nolalunchclub.com/. $DEPLOYPATH/nolalunchclubcom/
+    - /bin/mkdir -p $DEPLOYPATH/proudtoservecom && /bin/cp -r proudtoserve.com/. $DEPLOYPATH/proudtoservecom/
+    - /bin/mkdir -p $DEPLOYPATH/rememberingwinterlandcom && /bin/cp -r rememberingwinterland.com/. $DEPLOYPATH/rememberingwinterlandcom/
+    - /bin/mkdir -p $DEPLOYPATH/rocknchickencom && /bin/cp -r rocknchicken.com/. $DEPLOYPATH/rocknchickencom/
+    - /bin/mkdir -p $DEPLOYPATH/rocksportsplaycom && /bin/cp -r rocksportsplay.com/. $DEPLOYPATH/rocksportsplaycom/
+    - /bin/mkdir -p $DEPLOYPATH/rondawisecom && /bin/cp -r rondawise.com/. $DEPLOYPATH/rondawisecom/
+    - /bin/mkdir -p $DEPLOYPATH/scratchchickencom && /bin/cp -r scratchchicken.com/. $DEPLOYPATH/scratchchickencom/
+    - /bin/mkdir -p $DEPLOYPATH/sharkstoothvineyardscom && /bin/cp -r sharkstoothvineyards.com/. $DEPLOYPATH/sharkstoothvineyardscom/
+    - /bin/mkdir -p $DEPLOYPATH/talktomeinheavencom && /bin/cp -r talktomeinheaven.com/. $DEPLOYPATH/talktomeinheavencom/
+    - /bin/mkdir -p $DEPLOYPATH/tastetournolacom && /bin/cp -r tastetournola.com/. $DEPLOYPATH/tastetournolacom/
+    - /bin/mkdir -p $DEPLOYPATH/thedickshow && /bin/cp -r thedick.show/. $DEPLOYPATH/thedickshow/
+    - /bin/mkdir -p $DEPLOYPATH/winterlandposterscom && /bin/cp -r winterlandposters.com/. $DEPLOYPATH/winterlandposterscom/
