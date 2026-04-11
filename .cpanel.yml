@@ -22,6 +22,9 @@ deployment:
     - /bin/mkdir -p $DEPLOYPATH/djbobspencercom && /bin/cp -rf djbobspencer.com/. $DEPLOYPATH/djbobspencercom/
     - /bin/mkdir -p $DEPLOYPATH/downloadloungecom && /bin/cp -rf downloadlounge.com/. $DEPLOYPATH/downloadloungecom/
     - /bin/mkdir -p $DEPLOYPATH/fmgsfcom && /bin/cp -rf fmgsf.com/. $DEPLOYPATH/fmgsfcom/
+    - /bin/mkdir -p $DEPLOYPATH/davefuranocom && /bin/cp -rf davefurano.com/. $DEPLOYPATH/davefuranocom/
+    - /bin/mkdir -p $DEPLOYPATH/gratefuldavecom && /bin/cp -rf gratefuldave.com/. $DEPLOYPATH/gratefuldavecom/
+    - /bin/mkdir -p $DEPLOYPATH/martinerlichmancom && /bin/cp -rf martinerlichman.com/. $DEPLOYPATH/martinerlichmancom/
     - /bin/mkdir -p $DEPLOYPATH/furanoscom && /bin/cp -rf furanos.com/. $DEPLOYPATH/furanoscom/
     - /bin/mkdir -p $DEPLOYPATH/happyhoursocialcom && /bin/cp -rf happyhoursocial.com/. $DEPLOYPATH/happyhoursocialcom/
     - /bin/mkdir -p $DEPLOYPATH/jbbocascom && /bin/cp -rf jbbocas.com/. $DEPLOYPATH/jbbocascom/
