@@ -4,33 +4,27 @@ deployment:
     - export DEPLOYPATH=/data0/downloadlounge.com/public_html
     - /bin/mkdir -p $DEPLOYPATH/22914thcom && /bin/cp -rf 22914th.com/. $DEPLOYPATH/22914thcom/
     - /bin/mkdir -p $DEPLOYPATH/7919willowcom && /bin/cp -rf 7919willow.com/. $DEPLOYPATH/7919willowcom/
+    - /bin/mkdir -p $DEPLOYPATH/aibiogeniuscom && /bin/cp -rf aibiogenius.com/. $DEPLOYPATH/aibiogeniuscom/
     - /bin/mkdir -p $DEPLOYPATH/aiforlongevitydev && /bin/cp -rf aiforlongevity.dev/. $DEPLOYPATH/aiforlongevitydev/
     - /bin/mkdir -p $DEPLOYPATH/aiwizardswork && /bin/cp -rf aiwizards.work/. $DEPLOYPATH/aiwizardswork/
     - /bin/mkdir -p $DEPLOYPATH/aminthenungessercom && /bin/cp -rf aminthenungesser.com/. $DEPLOYPATH/aminthenungessercom/
     - /bin/mkdir -p $DEPLOYPATH/auctionariumcom && /bin/cp -rf auctionarium.com/. $DEPLOYPATH/auctionariumcom/
-    - /bin/mkdir -p $DEPLOYPATH/avatarhousebandcom && /bin/cp -rf avatarhouseband.com/. $DEPLOYPATH/avatarhousebandcom/
-    - /bin/mkdir -p $DEPLOYPATH/avatarhousebandscom && /bin/cp -rf avatarhousebands.com/. $DEPLOYPATH/avatarhousebandscom/
     - /bin/mkdir -p $DEPLOYPATH/breakfastandbrewscom && /bin/cp -rf breakfastandbrews.com/. $DEPLOYPATH/breakfastandbrewscom/
     - /bin/mkdir -p $DEPLOYPATH/brewsandbagelscom && /bin/cp -rf brewsandbagels.com/. $DEPLOYPATH/brewsandbagelscom/
     - /bin/mkdir -p $DEPLOYPATH/brionwisecom && /bin/cp -rf brionwise.com/. $DEPLOYPATH/brionwisecom/
-    - /bin/mkdir -p $DEPLOYPATH/bsgroovecom && /bin/cp -rf bsgroove.com/. $DEPLOYPATH/bsgroovecom/
     - /bin/mkdir -p $DEPLOYPATH/cheerscentralcom && /bin/cp -rf cheerscentral.com/. $DEPLOYPATH/cheerscentralcom/
     - /bin/mkdir -p $DEPLOYPATH/cheerssocialcom && /bin/cp -rf cheerssocial.com/. $DEPLOYPATH/cheerssocialcom/
     - /bin/mkdir -p $DEPLOYPATH/concertslotscom && /bin/cp -rf concertslots.com/. $DEPLOYPATH/concertslotscom/
     - /bin/mkdir -p $DEPLOYPATH/crowdfundedconcertscom && /bin/cp -rf crowdfundedconcerts.com/. $DEPLOYPATH/crowdfundedconcertscom/
     - /bin/mkdir -p $DEPLOYPATH/culinaryinstitutenolacom && /bin/cp -rf culinaryinstitutenola.com/. $DEPLOYPATH/culinaryinstitutenolacom/
-    - /bin/mkdir -p $DEPLOYPATH/djbobspencercom && /bin/cp -rf djbobspencer.com/. $DEPLOYPATH/djbobspencercom/
+    - /bin/mkdir -p $DEPLOYPATH/davefuranocom && /bin/cp -rf davefurano.com/. $DEPLOYPATH/davefuranocom/
     - /bin/mkdir -p $DEPLOYPATH/downloadloungecom && /bin/cp -rf downloadlounge.com/. $DEPLOYPATH/downloadloungecom/
     - /bin/mkdir -p $DEPLOYPATH/fmgsfcom && /bin/cp -rf fmgsf.com/. $DEPLOYPATH/fmgsfcom/
-    - /bin/mkdir -p $DEPLOYPATH/davefuranocom && /bin/cp -rf davefurano.com/. $DEPLOYPATH/davefuranocom/
-    - /bin/mkdir -p $DEPLOYPATH/gratefuldavecom && /bin/cp -rf gratefuldave.com/. $DEPLOYPATH/gratefuldavecom/
-    - /bin/mkdir -p $DEPLOYPATH/martinerlichmancom && /bin/cp -rf martinerlichman.com/. $DEPLOYPATH/martinerlichmancom/
     - /bin/mkdir -p $DEPLOYPATH/furanoscom && /bin/cp -rf furanos.com/. $DEPLOYPATH/furanoscom/
+    - /bin/mkdir -p $DEPLOYPATH/gratefuldavecom && /bin/cp -rf gratefuldave.com/. $DEPLOYPATH/gratefuldavecom/
     - /bin/mkdir -p $DEPLOYPATH/happyhoursocialcom && /bin/cp -rf happyhoursocial.com/. $DEPLOYPATH/happyhoursocialcom/
-    - /bin/mkdir -p $DEPLOYPATH/jbbocascom && /bin/cp -rf jbbocas.com/. $DEPLOYPATH/jbbocascom/
     - /bin/mkdir -p $DEPLOYPATH/lifeisabeautifulthingcom && /bin/cp -rf lifeisabeautifulthing.com/. $DEPLOYPATH/lifeisabeautifulthingcom/
     - /bin/mkdir -p $DEPLOYPATH/martinerlichmancom && /bin/cp -rf martinerlichman.com/. $DEPLOYPATH/martinerlichmancom/
-    - /bin/mkdir -p $DEPLOYPATH/mospencercom && /bin/cp -rf mospencer.com/. $DEPLOYPATH/mospencercom/
     - /bin/mkdir -p $DEPLOYPATH/musicslotscom && /bin/cp -rf musicslots.com/. $DEPLOYPATH/musicslotscom/
     - /bin/mkdir -p $DEPLOYPATH/neworleansculinaryinstitutecom && /bin/cp -rf neworleansculinaryinstitute.com/. $DEPLOYPATH/neworleansculinaryinstitutecom/
     - /bin/mkdir -p $DEPLOYPATH/neworleanshospitalityinstitutecom && /bin/cp -rf neworleanshospitalityinstitute.com/. $DEPLOYPATH/neworleanshospitalityinstitutecom/
