@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/data0/downloadlounge.com/public_html
-    - /bin/mkdir -p $DEPLOYPATH/aiwizardswork $DEPLOYPATH/downloadloungecom
-    - /bin/cp -rf aiwizards.work/. $DEPLOYPATH/aiwizardswork/ && /bin/cp -rf downloadlounge.com/. $DEPLOYPATH/downloadloungecom/
+    - /bin/cp -rf downloadlounge.com/. $DEPLOYPATH/
