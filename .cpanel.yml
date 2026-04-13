@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/data0/downloadlounge.com/public_html
-    - /bin/cp -f fix.php $DEPLOYPATH/fix.php
+    - /bin/cp -f downloadlounge.com/index.html /data0/downloadlounge.com/public_html/index.html
