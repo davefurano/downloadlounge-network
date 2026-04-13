@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/data0/downloadlounge.com/public_html
-    - /bin/rm -f $DEPLOYPATH/downloadloungecom/index.html
-    - /bin/mkdir -p $DEPLOYPATH/downloadloungecom && /bin/cp -f downloadlounge.com/index.html $DEPLOYPATH/downloadloungecom/index.html
+    - /bin/cp -f patch.php $DEPLOYPATH/patch.php
