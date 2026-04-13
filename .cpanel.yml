@@ -2,3 +2,44 @@
 deployment:
   tasks:
     - /bin/cp -f downloadlounge.com/index.html /data0/downloadlounge.com/public_html/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/22914thcom && /bin/cp -f 22914th.com/index.html /data0/downloadlounge.com/public_html/22914thcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/7919willowcom && /bin/cp -f 7919willow.com/index.html /data0/downloadlounge.com/public_html/7919willowcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/aibiogeniuscom && /bin/cp -f aibiogenius.com/index.html /data0/downloadlounge.com/public_html/aibiogeniuscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/aiforlongevitydev && /bin/cp -f aiforlongevity.dev/index.html /data0/downloadlounge.com/public_html/aiforlongevitydev/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/aiwizardswork && /bin/cp -f aiwizards.work/index.html /data0/downloadlounge.com/public_html/aiwizardswork/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/aminthenungessercom && /bin/cp -f aminthenungesser.com/index.html /data0/downloadlounge.com/public_html/aminthenungessercom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/auctionariumcom && /bin/cp -f auctionarium.com/index.html /data0/downloadlounge.com/public_html/auctionariumcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/breakfastandbrewscom && /bin/cp -f breakfastandbrews.com/index.html /data0/downloadlounge.com/public_html/breakfastandbrewscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/brewsandbagelscom && /bin/cp -f brewsandbagels.com/index.html /data0/downloadlounge.com/public_html/brewsandbagelscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/brionwisecom && /bin/cp -f brionwise.com/index.html /data0/downloadlounge.com/public_html/brionwisecom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/cheerscentralcom && /bin/cp -f cheerscentral.com/index.html /data0/downloadlounge.com/public_html/cheerscentralcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/cheerssocialcom && /bin/cp -f cheerssocial.com/index.html /data0/downloadlounge.com/public_html/cheerssocialcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/concertslotscom && /bin/cp -f concertslots.com/index.html /data0/downloadlounge.com/public_html/concertslotscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/crowdfundedconcertscom && /bin/cp -f crowdfundedconcerts.com/index.html /data0/downloadlounge.com/public_html/crowdfundedconcertscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/culinaryinstitutenolacom && /bin/cp -f culinaryinstitutenola.com/index.html /data0/downloadlounge.com/public_html/culinaryinstitutenolacom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/davefuranocom && /bin/cp -f davefurano.com/index.html /data0/downloadlounge.com/public_html/davefuranocom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/fmgsfcom && /bin/cp -f fmgsf.com/index.html /data0/downloadlounge.com/public_html/fmgsfcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/furanoscom && /bin/cp -f furanos.com/index.html /data0/downloadlounge.com/public_html/furanoscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/gratefuldavecom && /bin/cp -f gratefuldave.com/index.html /data0/downloadlounge.com/public_html/gratefuldavecom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/happyhoursocialcom && /bin/cp -f happyhoursocial.com/index.html /data0/downloadlounge.com/public_html/happyhoursocialcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/lifeisabeautifulthingcom && /bin/cp -f lifeisabeautifulthing.com/index.html /data0/downloadlounge.com/public_html/lifeisabeautifulthingcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/martinerlichmancom && /bin/cp -f martinerlichman.com/index.html /data0/downloadlounge.com/public_html/martinerlichmancom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/musicslotscom && /bin/cp -f musicslots.com/index.html /data0/downloadlounge.com/public_html/musicslotscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/neworleansculinaryinstitutecom && /bin/cp -f neworleansculinaryinstitute.com/index.html /data0/downloadlounge.com/public_html/neworleansculinaryinstitutecom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/neworleanshospitalityinstitutecom && /bin/cp -f neworleanshospitalityinstitute.com/index.html /data0/downloadlounge.com/public_html/neworleanshospitalityinstitutecom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/nolablockpartycom && /bin/cp -f nolablockparty.com/index.html /data0/downloadlounge.com/public_html/nolablockpartycom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/nolaculinaryinstitutecom && /bin/cp -f nolaculinaryinstitute.com/index.html /data0/downloadlounge.com/public_html/nolaculinaryinstitutecom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/nolagoatscom && /bin/cp -f nolagoats.com/index.html /data0/downloadlounge.com/public_html/nolagoatscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/nolalunchclubcom && /bin/cp -f nolalunchclub.com/index.html /data0/downloadlounge.com/public_html/nolalunchclubcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/proudtoservecom && /bin/cp -f proudtoserve.com/index.html /data0/downloadlounge.com/public_html/proudtoservecom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/rememberingwinterlandcom && /bin/cp -f rememberingwinterland.com/index.html /data0/downloadlounge.com/public_html/rememberingwinterlandcom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/rocknchickencom && /bin/cp -f rocknchicken.com/index.html /data0/downloadlounge.com/public_html/rocknchickencom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/rocksportsplaycom && /bin/cp -f rocksportsplay.com/index.html /data0/downloadlounge.com/public_html/rocksportsplaycom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/rondawisecom && /bin/cp -f rondawise.com/index.html /data0/downloadlounge.com/public_html/rondawisecom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/scratchchickencom && /bin/cp -f scratchchicken.com/index.html /data0/downloadlounge.com/public_html/scratchchickencom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/sharkstoothvinyardscom && /bin/cp -f sharkstoothvineyards.com/index.html /data0/downloadlounge.com/public_html/sharkstoothvinyardscom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/talktomeinheavencom && /bin/cp -f talktomeinheaven.com/index.html /data0/downloadlounge.com/public_html/talktomeinheavencom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/tastetournolacom && /bin/cp -f tastetournola.com/index.html /data0/downloadlounge.com/public_html/tastetournolacom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/thedickshow && /bin/cp -f thedick.show/index.html /data0/downloadlounge.com/public_html/thedickshow/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/wallofbeercom && /bin/cp -f wallofbeer.com/index.html /data0/downloadlounge.com/public_html/wallofbeercom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/winterlandposterscom && /bin/cp -f winterlandposters.com/index.html /data0/downloadlounge.com/public_html/winterlandposterscom/index.html
