@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/data0/downloadlounge.com/public_html
-    - /bin/chmod -R 755 $DEPLOYPATH/downloadloungecom || true
-    - /bin/cp -rf downloadlounge.com/. $DEPLOYPATH/downloadloungecom/
+    - /bin/rm -f $DEPLOYPATH/downloadloungecom/index.html
+    - /bin/mkdir -p $DEPLOYPATH/downloadloungecom && /bin/cp -f downloadlounge.com/index.html $DEPLOYPATH/downloadloungecom/index.html
