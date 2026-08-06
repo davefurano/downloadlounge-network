@@ -35,7 +35,7 @@ deployment:
     - /bin/mkdir -p /data0/downloadlounge.com/public_html/rememberingwinterlandcom && /bin/cp -f rememberingwinterland.com/index.html /data0/downloadlounge.com/public_html/rememberingwinterlandcom/index.html
     - /bin/mkdir -p /data0/downloadlounge.com/public_html/rocknchickencom && /bin/cp -f rocknchicken.com/index.html /data0/downloadlounge.com/public_html/rocknchickencom/index.html
     - /bin/mkdir -p /data0/downloadlounge.com/public_html/rocksportsplaycom && /bin/cp -f rocksportsplay.com/index.html /data0/downloadlounge.com/public_html/rocksportsplaycom/index.html
-    - /bin/mkdir -p /data0/downloadlounge.com/public_html/rondawisecom && /bin/cp -f rondawise.com/index.html /data0/downloadlounge.com/public_html/rondawisecom/index.html
+    - /bin/mkdir -p /data0/downloadlounge.com/public_html/rondawisecom && /bin/cp -f rondawise.com/*.html /data0/downloadlounge.com/public_html/rondawisecom/
     - /bin/mkdir -p /data0/downloadlounge.com/public_html/scratchchickencom && /bin/cp -f scratchchicken.com/index.html /data0/downloadlounge.com/public_html/scratchchickencom/index.html
     - /bin/mkdir -p /data0/downloadlounge.com/public_html/sharkstoothvinyardscom && /bin/cp -f sharkstoothvineyards.com/index.html /data0/downloadlounge.com/public_html/sharkstoothvinyardscom/index.html
     - /bin/mkdir -p /data0/downloadlounge.com/public_html/talktomeinheavencom && /bin/cp -f talktomeinheaven.com/index.html /data0/downloadlounge.com/public_html/talktomeinheavencom/index.html
